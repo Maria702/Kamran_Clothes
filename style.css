@@ -1,0 +1,39 @@
+body,h1,h2,h3,h4,h5,h6 {font-family: "Karma", sans-serif}
+.w3-bar-block .w3-bar-item {padding:20px}
+
+.foo{
+    font: bolder;
+    font-size: 50px;
+}
+.h{
+    font-size: 21px;
+    font-weight: 900;
+    display: flex;
+}
+.head{
+    font-weight: bolder;
+    color: blue;
+    text-shadow:  0 0 15px #fff , 0 0 30px #ff4d828e , 0 0 40px #4ddbff80 , 0 0 50px #f8f5f7;
+  
+}
+
+img {
+    
+    border: 5px solid rgba(19, 238, 253, 0.239);
+  }
+img:hover{
+    box-shadow:  0 0 10px #fff , 0 0 30px #ff4da670 , 0 0 40px #4ddbff80 , 0 0 50px #f8f5f7;
+    transition: 0.001s;
+    border-style: dotted;
+    background-color: rgba(251, 24, 251, 0.274);
+    transition: 0.5ms;
+}
+img {
+    padding: 1px;
+    transition: transform .1s; /* Animation */
+    margin: 0 auto;
+  }
+  img:hover {
+    transform: scale(0.9); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
+  
